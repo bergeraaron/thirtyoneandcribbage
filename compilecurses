@@ -1,0 +1,2 @@
+g++ -ltinfo -lncurses -c cardscurses.c -o cardscurses.o
+g++ cardscurses.o -o test testcurses.c  -lncurses 
